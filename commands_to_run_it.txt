@@ -1,0 +1,7 @@
+Imp -> make sure to have cmake set in path and you have installed microsoft community vs code 2022
+
+& "C:\Program Files\CMake\bin\cmake.exe" -B build -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
+
+& "C:\Program Files\CMake\bin\cmake.exe" --build build
+
+.\build\Debug\MiniBrowser.exe

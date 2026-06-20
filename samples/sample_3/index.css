@@ -1,0 +1,16 @@
+.container {
+  background-color: black;
+  padding: 5px;
+}
+.block1 {
+  background-color: red;
+  padding: 15px;
+}
+.block2 {
+  background-color: green;
+  padding: 15px;
+}
+.block3 {
+  background-color: blue;
+  padding: 15px;
+}

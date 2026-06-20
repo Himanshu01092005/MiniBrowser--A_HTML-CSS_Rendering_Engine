@@ -1,0 +1,10 @@
+^C:\DEVWORKSPACE\MAKING_MY_OWN_BROWSER_ENGINE\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DevWorkspace/Making_my_Own_Browser_Engine -BC:/DevWorkspace/Making_my_Own_Browser_Engine/build --check-stamp-file C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

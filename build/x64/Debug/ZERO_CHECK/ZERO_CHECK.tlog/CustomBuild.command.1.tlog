@@ -1,0 +1,10 @@
+^C:\DEVWORKSPACE\MAKING_MY_OWN_BROWSER_ENGINE\BUILD\CMAKEFILES\799BD598D2BA51E0392720359449C5A0\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/DevWorkspace/Making_my_Own_Browser_Engine -BC:/DevWorkspace/Making_my_Own_Browser_Engine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/DevWorkspace/Making_my_Own_Browser_Engine/build/MiniBrowser.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
