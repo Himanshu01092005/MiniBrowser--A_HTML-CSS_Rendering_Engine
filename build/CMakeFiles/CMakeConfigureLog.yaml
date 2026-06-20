@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 18.7.8+1ac568fee for .NET Framework
-      Build started 20-06-2026 22:29:09.
+      Build started 20-06-2026 23:42:08.
       
       Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\4.4.0-rc2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -108,7 +108,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.55
+      Time Elapsed 00:00:00.93
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1751,7 +1751,7 @@ events:
       The output was:
       0
       MSBuild version 18.7.8+1ac568fee for .NET Framework
-      Build started 20-06-2026 22:29:10.
+      Build started 20-06-2026 23:42:09.
       
       Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\4.4.0-rc2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -1780,7 +1780,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.58
+      Time Elapsed 00:00:00.79
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -2762,8 +2762,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-4j4cx1"
-      binary: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-4j4cx1"
+      source: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-p69p2s"
+      binary: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-p69p2s"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS"
@@ -2777,39 +2777,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-4j4cx1'
+        Change Dir: 'C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-p69p2s'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2b3e4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ecc0b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.7.8+1ac568fee for .NET Framework
-        Build started 20-06-2026 22:29:11.
+        Build started 20-06-2026 23:42:10.
         
-        Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4j4cx1\\cmTC_2b3e4.vcxproj" on node 1 (default targets).
+        Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p69p2s\\cmTC_ecc0b.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4j4cx1\\Debug\\".
-          Creating directory "cmTC_2b3e4.dir\\Debug\\cmTC_2b3e4.tlog\\".
+          Creating directory "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p69p2s\\Debug\\".
+          Creating directory "cmTC_ecc0b.dir\\Debug\\cmTC_ecc0b.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_2b3e4.dir\\Debug\\cmTC_2b3e4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_2b3e4.dir\\Debug\\cmTC_2b3e4.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ecc0b.dir\\Debug\\cmTC_ecc0b.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ecc0b.dir\\Debug\\cmTC_ecc0b.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2b3e4.dir\\Debug\\\\" /Fd"cmTC_2b3e4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ecc0b.dir\\Debug\\\\" /Fd"cmTC_ecc0b.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_2b3e4.dir\\Debug\\\\" /Fd"cmTC_2b3e4.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ecc0b.dir\\Debug\\\\" /Fd"cmTC_ecc0b.dir\\Debug\\vc145.pdb" /external:W1 /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4j4cx1\\Debug\\cmTC_2b3e4.exe" /INCREMENTAL /ILK:"cmTC_2b3e4.dir\\Debug\\cmTC_2b3e4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-4j4cx1/Debug/cmTC_2b3e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-4j4cx1/Debug/cmTC_2b3e4.lib" /MACHINE:X64  /machine:x64 cmTC_2b3e4.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_2b3e4.vcxproj -> C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4j4cx1\\Debug\\cmTC_2b3e4.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p69p2s\\Debug\\cmTC_ecc0b.exe" /INCREMENTAL /ILK:"cmTC_ecc0b.dir\\Debug\\cmTC_ecc0b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-p69p2s/Debug/cmTC_ecc0b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-p69p2s/Debug/cmTC_ecc0b.lib" /MACHINE:X64  /machine:x64 cmTC_ecc0b.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ecc0b.vcxproj -> C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p69p2s\\Debug\\cmTC_ecc0b.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_2b3e4.dir\\Debug\\cmTC_2b3e4.tlog\\unsuccessfulbuild".
-          Touching "cmTC_2b3e4.dir\\Debug\\cmTC_2b3e4.tlog\\cmTC_2b3e4.lastbuildstate".
-        Done Building Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4j4cx1\\cmTC_2b3e4.vcxproj" (default targets).
+          Deleting file "cmTC_ecc0b.dir\\Debug\\cmTC_ecc0b.tlog\\unsuccessfulbuild".
+          Touching "cmTC_ecc0b.dir\\Debug\\cmTC_ecc0b.tlog\\cmTC_ecc0b.lastbuildstate".
+        Done Building Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p69p2s\\cmTC_ecc0b.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.79
         
       exitCode: 0
   -
@@ -2822,7 +2822,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4j4cx1\\Debug\\cmTC_2b3e4.exe" /INCREMENTAL /ILK:"cmTC_2b3e4.dir\\Debug\\cmTC_2b3e4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-4j4cx1/Debug/cmTC_2b3e4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-4j4cx1/Debug/cmTC_2b3e4.lib" /MACHINE:X64  /machine:x64 cmTC_2b3e4.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-p69p2s\\Debug\\cmTC_ecc0b.exe" /INCREMENTAL /ILK:"cmTC_ecc0b.dir\\Debug\\cmTC_ecc0b.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-p69p2s/Debug/cmTC_ecc0b.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-p69p2s/Debug/cmTC_ecc0b.lib" /MACHINE:X64  /machine:x64 cmTC_ecc0b.dir\\Debug\\CMakeCCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'C': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
@@ -2850,8 +2850,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-tmmueu"
-      binary: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-tmmueu"
+      source: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-h9xx6a"
+      binary: "C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-h9xx6a"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
@@ -2866,39 +2866,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: 'C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-tmmueu'
+        Change Dir: 'C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-h9xx6a'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_dfbde.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_18f98.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.7.8+1ac568fee for .NET Framework
-        Build started 20-06-2026 22:29:12.
+        Build started 20-06-2026 23:42:12.
         
-        Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmmueu\\cmTC_dfbde.vcxproj" on node 1 (default targets).
+        Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9xx6a\\cmTC_18f98.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmmueu\\Debug\\".
-          Creating directory "cmTC_dfbde.dir\\Debug\\cmTC_dfbde.tlog\\".
+          Creating directory "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9xx6a\\Debug\\".
+          Creating directory "cmTC_18f98.dir\\Debug\\cmTC_18f98.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_dfbde.dir\\Debug\\cmTC_dfbde.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_dfbde.dir\\Debug\\cmTC_dfbde.tlog\\unsuccessfulbuild".
+          Creating "cmTC_18f98.dir\\Debug\\cmTC_18f98.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_18f98.dir\\Debug\\cmTC_18f98.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_dfbde.dir\\Debug\\\\" /Fd"cmTC_dfbde.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_18f98.dir\\Debug\\\\" /Fd"cmTC_18f98.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36248 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_dfbde.dir\\Debug\\\\" /Fd"cmTC_dfbde.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_18f98.dir\\Debug\\\\" /Fd"cmTC_18f98.dir\\Debug\\vc145.pdb" /external:W1 /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.4\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmmueu\\Debug\\cmTC_dfbde.exe" /INCREMENTAL /ILK:"cmTC_dfbde.dir\\Debug\\cmTC_dfbde.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-tmmueu/Debug/cmTC_dfbde.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-tmmueu/Debug/cmTC_dfbde.lib" /MACHINE:X64  /machine:x64 cmTC_dfbde.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_dfbde.vcxproj -> C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmmueu\\Debug\\cmTC_dfbde.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9xx6a\\Debug\\cmTC_18f98.exe" /INCREMENTAL /ILK:"cmTC_18f98.dir\\Debug\\cmTC_18f98.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-h9xx6a/Debug/cmTC_18f98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-h9xx6a/Debug/cmTC_18f98.lib" /MACHINE:X64  /machine:x64 cmTC_18f98.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_18f98.vcxproj -> C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9xx6a\\Debug\\cmTC_18f98.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_dfbde.dir\\Debug\\cmTC_dfbde.tlog\\unsuccessfulbuild".
-          Touching "cmTC_dfbde.dir\\Debug\\cmTC_dfbde.tlog\\cmTC_dfbde.lastbuildstate".
-        Done Building Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmmueu\\cmTC_dfbde.vcxproj" (default targets).
+          Deleting file "cmTC_18f98.dir\\Debug\\cmTC_18f98.tlog\\unsuccessfulbuild".
+          Touching "cmTC_18f98.dir\\Debug\\cmTC_18f98.tlog\\cmTC_18f98.lastbuildstate".
+        Done Building Project "C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9xx6a\\cmTC_18f98.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.55
+        Time Elapsed 00:00:01.42
         
       exitCode: 0
   -
@@ -2911,7 +2911,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tmmueu\\Debug\\cmTC_dfbde.exe" /INCREMENTAL /ILK:"cmTC_dfbde.dir\\Debug\\cmTC_dfbde.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-tmmueu/Debug/cmTC_dfbde.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-tmmueu/Debug/cmTC_dfbde.lib" /MACHINE:X64  /machine:x64 cmTC_dfbde.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
+        link line: [  C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe /OUT:"C:\\DevWorkspace\\Making_my_Own_Browser_Engine\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9xx6a\\Debug\\cmTC_18f98.exe" /INCREMENTAL /ILK:"cmTC_18f98.dir\\Debug\\cmTC_18f98.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-h9xx6a/Debug/cmTC_18f98.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/DevWorkspace/Making_my_Own_Browser_Engine/build/CMakeFiles/CMakeScratch/TryCompile-h9xx6a/Debug/cmTC_18f98.lib" /MACHINE:X64  /machine:x64 cmTC_18f98.dir\\Debug\\CMakeCXXCompilerABI.obj] ==> linker [C:\\Program Files\\Microsoft Visual Studio\\18\\Community\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX64\\x64\\link.exe]
         linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/18/Community/VC/Tools/MSVC/14.51.36231/bin/HostX64/x64/link.exe 
         implicit libs: []
         implicit objs: []
